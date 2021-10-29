@@ -1,0 +1,18 @@
+.nav, nav button{
+   
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-menu a{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-menu a:hover{
+   color: #34a4c6; 
+}
+.nav-menu a:active{
+    color: #34a4c6; 
+ }

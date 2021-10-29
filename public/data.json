@@ -1,0 +1,81 @@
+[
+    {
+        "id": "1",
+        "title": "Ultrasound",
+        "courseDuration": "60",
+        "price": "24",
+        "drName": "Ronald",
+        "drCat": "Pathologist",
+        "description": "An ECG is one of the most common heart tests which monitors your heart rate, rhythm and electrical activity.",
+        "imgFeatured": "https://i.ibb.co/2WrYChp/ultrasound.jpg",
+        "imgDr": "https://i.ibb.co/Df6Kncn/medi-team06-615x410.jpg"
+    },
+    {
+        "id": "2",
+        "title": "CT Lung Assessment",
+        "courseDuration": "60",
+        "price": "24",
+        "drName": "Shilpa D. Singh",
+        "drCat": "Thoracic Imaging",
+        "description": "An ECG is one of the most common heart tests which monitors your heart rate, rhythm and electrical activity.",
+        "imgFeatured": "https://i.ibb.co/J7Ltwcv/ct-lung-assesment.jpg",
+        "imgDr": "https://i.ibb.co/KyV10dR/medi-team03-615x410.jpg"
+    },
+    {
+        "id": "3",
+        "title": "CT Scan",
+        "courseDuration": "60",
+        "price": "24",
+        "drName": "Tina",
+        "drCat": "Radiologist",
+        "description": "We offer computerised tomography (CT) scan services with reports from specialist consultants in 3 working days.",
+        "imgFeatured": "https://i.ibb.co/hH93m3M/ct-scan.jpg",
+        "imgDr": "https://i.ibb.co/1R53QCF/medi-team04-615x410.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Endoscopy",
+        "courseDuration": "60",
+        "price": "24",
+        "drName": "Kristiana",
+        "drCat": "Thoracic Imaging",
+        "description": "Endoscopy is the insertion of a long, thin tube directly into the body to observe an internal organ or tissue in detail.",
+        "imgFeatured": "https://i.ibb.co/Vq9Zhqs/endoscopy.jpg",
+        "imgDr": "https://i.ibb.co/Wxgwsjc/medi-team02-615x410.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Digital Mammography",
+        "courseDuration": "60",
+        "price": "24",
+        "drName": "Urmi D. Singh",
+        "drCat": "Radiologist",
+        "description": "An ECG is one of the most common heart tests which monitors your heart rate, rhythm and electrical activity.",
+        "imgFeatured": "https://i.ibb.co/2vFb5bg/digital-mammography.png",
+        "imgDr": "https://i.ibb.co/xHQWWVn/medi-team01-615x410.jpg"
+    },
+    {
+        "id": "6",
+        "title": "Eye Screening",
+        "courseDuration": "60",
+        "price": "24",
+        "drName": "Robert",
+        "drCat": "Thoracic Imaging",
+        "description": "An ECG is one of the most common heart tests which monitors your heart rate, rhythm and electrical activity.",
+        "imgFeatured": "https://i.ibb.co/tsDfCX7/eye-screening.jpg",
+        "imgDr": "https://i.ibb.co/Hhy89DW/medi-team05-615x410.jpg"
+    },
+    {
+        "id": "7",
+        "title": "MRI",
+        "courseDuration": "60",
+        "price": "24",
+        "drName": "Paul",
+        "drCat": "Pathologist",
+        "description": "An ECG is one of the most common heart tests which monitors your heart rate, rhythm and electrical activity.",
+        "imgFeatured": "https://i.ibb.co/4pWLz7B/mri-scan.jpg",
+        "imgDr": "https://i.ibb.co/Df6Kncn/medi-team06-615x410.jpg"
+    }
+    
+   
+]
