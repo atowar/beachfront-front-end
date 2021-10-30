@@ -19,10 +19,9 @@ const Footer = () => {
                 <div>
                     <h2 className="text-xl font-bold py-2">Usefull Links</h2>
                     <nav>
-                        <NavLink to="/faq">FAQ</NavLink> <br />
-                        <NavLink to="/services">Services</NavLink> <br />
-                        <NavLink to="/consultants">Consultants</NavLink> <br />
-                        <NavLink to="/contact">Contact us</NavLink> <br />
+                        <NavLink to="/about-us">About us</NavLink> <br />
+                        <NavLink to="/contact-us">Contact us</NavLink> <br />
+                       
                     </nav>
                 </div>
                 <div>

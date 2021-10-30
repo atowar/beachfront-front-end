@@ -14,8 +14,8 @@ const Home = () => {
             <NavbarSlider></NavbarSlider>
             <ResortServices></ResortServices>
             <PromoBanner></PromoBanner>
-            <ResortFacilites></ResortFacilites>
             <Services></Services>
+            <ResortFacilites></ResortFacilites>
             <Reviews></Reviews>
             <FooterTop></FooterTop>
         </div>
