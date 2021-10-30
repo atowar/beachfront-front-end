@@ -1,5 +1,5 @@
 import React from 'react';
-import pool from '../../../../../images/banner/room.jpg';
+import pool from '../../../../../images/resort-services/pool.jpg';
 import food from '../../../../../images/resort-services/food.jpg';
 import cocktail from '../../../../../images/resort-services/cocktail.jpg';
 import volley from '../../../../../images/resort-services/beach_volley.jpg';
@@ -16,7 +16,7 @@ const ResortServices = () => {
                             <img src={volley} alt="" />
                         </div>
 
-                        <div id="services" className="text-left  w-1/2">
+                        <div id="services" className="text-left w-1/2">
                             <h2 className="text-3xl"><span className="font-bold underline">Beach</span> Sports</h2>
                             <p>We facilitates you with differents types of sports</p>
                         </div>
@@ -26,8 +26,8 @@ const ResortServices = () => {
                             <img src={food} alt="" />
                         </div>
 
-                        <div id="services" className="text-left  w-1/2">
-                            <h2 className="text-3xl text-left"><span className="font-bold underline">Nice</span> Foods</h2>
+                        <div id="services" className="text-left w-1/2">
+                            <h2 className="text-3xl"><span className="font-bold underline">Nice</span> Foods</h2>
                             <p>We have foods from different countries</p>
                         </div>
                     </div>
@@ -46,8 +46,8 @@ const ResortServices = () => {
                             <img src={pool} alt="" />
                         </div>
 
-                        <div id="services" className="text-left w-1/2 ">
-                            <h2 className="text-3xl text-left"><span className="font-bold underline">Fancy</span> Pool</h2>
+                        <div id="services" className="text-left w-1/2">
+                            <h2 className="text-3xl"><span className="font-bold underline">Fancy</span> Pool</h2>
                             <p>Beautiful pool you must love</p>
                         </div>
                     </div>
