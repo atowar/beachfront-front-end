@@ -1,9 +1,6 @@
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Apointment from './Components/Pages/Apointment/Apointment';
-import ConsultantProfile from './Components/Pages/ConsultantProfile/ConsultantProfile';
-import Consultant from './Components/Pages/Home/Consultant/Consultant';
 import Home from './Components/Pages/Home/Home';
 import NotFound from './Components/Pages/NotFound/NotFound';
 import ServiceDetails from './Components/Pages/ServiceDetails/ServiceDetails';
@@ -31,13 +28,6 @@ function App() {
             <Route path="/service/:serviceId" component={ServiceDetails}>
               <ServiceDetails></ServiceDetails>
             </Route>
-       
-            <Route path="/consultant/:consultantId">
-              <ConsultantProfile></ConsultantProfile>
-            </Route>
-            <PrivateRoute path="/apointment">
-              <Apointment></Apointment>
-            </PrivateRoute>
             <Route path="/signin">
               <Signin></Signin>
             </Route>

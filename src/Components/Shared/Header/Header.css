@@ -10,8 +10,8 @@
     font-weight: 600;
 }
 
-.nav-menu a:hover{
-   color: #34a4c6; 
+nav a:hover{
+   color: #C74458; 
 }
 .nav-menu a:active{
     color: #34a4c6; 

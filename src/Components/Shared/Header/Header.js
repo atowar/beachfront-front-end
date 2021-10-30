@@ -13,7 +13,7 @@ const Header = ({ fixed }) => {
     
     return (
         <>
-            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3">
+            <nav className="relative fixed-top flex flex-wrap items-center justify-between px-2 py-3 mb-3">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <img style={{ width: "250px" }} src={logo} alt="site logo" />
@@ -35,42 +35,45 @@ const Header = ({ fixed }) => {
                         id="example-navbar-danger"
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-                            <li className="nav-item">
-                                <a
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
-                                    href="#pablo"
-                                >
+                            <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
+                               
                                     <NavLink to="/home">Home</NavLink>
-                                </a>
+                               
                             </li>
-                            <li className="nav-item">
-                                <a
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
-                                    href="#pablo"
-                                >
-                                     <Link to="/apointment">Make an Appointment</Link>
-                                </a>
+                            <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
+                                
+                                    <NavLink to="/about-us">About us</NavLink>
+                             
+                            </li>
+                            <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
+                               
+                                     <Link to="/services">services</Link>
+                               
+                            </li>
+                            <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
+                              
+                                     <Link to="/gallery">Gallery</Link>
+                              
+                            </li>
+                            <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
+                               
+                                     <Link to="/contact-us">Contact us</Link>
+                                
                             </li>
                          
                           
-                            <li className="nav-item">
-                                <a
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
-                                    href="#pablo"
-                                >
+                            <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
+                              
                                     <span>{user.displayName}</span>
-                                </a>
+                              
                             </li>
-                            <li className="nav-item">
-                                <a
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
-                                    href="#pablo"
-                                >
+                            <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
+                              
                                     {
                                         user.email ? <button className="py-2 px-5" onClick={logOut}>Sign-Out</button>
                                             :
                                             <Link to="/signin">Sign-In</Link>}
-                                </a>
+                                
                             </li>
 
                         </ul>

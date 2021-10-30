@@ -1,12 +1,13 @@
 
 import useService from '../../../../Hooks/useService';
 import Service from '../Service/Service';
-import './Services.css'
+
 
 const Services = () => {
     const [services] = useService();
   
     return (
+        <div className="grid justify-items-center">
         <div id="services" className="grid justify-items-center">
              <h2 className="pt-5 text-xl">We offer a wide range of tests</h2>
             <h2 className="p-5 text-5xl font-bold">Our Services</h2>
@@ -21,6 +22,7 @@ const Services = () => {
                     )}
                 </div>
             </div>
+        </div>
         </div>
     );
 };

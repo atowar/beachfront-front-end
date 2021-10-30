@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../images/logo/footer-logo.png'
+import logo from '../../../images/logo/logo.png';
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
@@ -10,11 +10,11 @@ const Footer = () => {
                 <div>
                     <img className="w-3/5" src={logo} alt="" />
                     <p>+880178921457</p>
-                    <p>Sadar Road, Manikganj, Dhaka, Bangladesh</p>
+                    <p>Cox's Bazar, Bangladesh</p>
                 </div>
                 <div>
-                    <h2 className="text-xl font-bold py-2">About MediCenterBD</h2>
-                    <p>MediCenterBD is a leading healthcare provider specialising in diagnostic services for the private healthcare market. We help patients start the health journey sooner.</p>
+                    <h2 className="text-xl font-bold py-2">About BeachFront</h2>
+                    <p>Encompassing the spectacular views of Cox’s Bazar, BeachFront Resort stands very close to the hills and sea-beach, offering world class facilities and exhilarating experience to its guests.</p>
                 </div>
                 <div>
                     <h2 className="text-xl font-bold py-2">Usefull Links</h2>

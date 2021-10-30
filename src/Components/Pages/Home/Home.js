@@ -1,19 +1,22 @@
 import React from 'react';
-import Banner from './Banner/Banner';
 import PromoBanner from './PromoBanner/PromoBanner';
 import Services from './Services/Services';
-import Consultants from './Consultants/Consultants';
 import Reviews from './Reviews/Reviews';
 import FooterTop from './FooterTop/FooterTop';
+import NavbarSlider from './NavbarSlider/NavbarSlider';
+import ResortServices from './NavbarSlider/ResortServices/ResortServices';
+import ResortFacilites from './ResortFacilites/ResortFacilites';
+
 
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
-            <Reviews></Reviews>
-            <Services></Services>
+            <NavbarSlider></NavbarSlider>
+            <ResortServices></ResortServices>
             <PromoBanner></PromoBanner>
-            <Consultants></Consultants>
+            <ResortFacilites></ResortFacilites>
+            <Services></Services>
+            <Reviews></Reviews>
             <FooterTop></FooterTop>
         </div>
     );
