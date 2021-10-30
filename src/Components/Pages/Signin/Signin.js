@@ -1,15 +1,16 @@
-import './Signin.css'
 import React from 'react';
+import './Signin.css';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 
 const Signin = () => {
-    const { user, googleSignIn } = useAuth();
+    const { googleSignIn } = useAuth();
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || '/';
+    const redirect_uri = location.state?.from || '/home';
 
     const handleGoogleSignIn = () => {
+        
         googleSignIn()
             .then(result => {
                 history.push(redirect_uri)

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Pages/Home/Home';
 import NotFound from './Components/Pages/NotFound/NotFound';
-import ServiceDetails from './Components/Pages/ServiceDetails/ServiceDetails';
+import OrderReceived from './Components/Pages/OrderReceived/OrderReceived';
 import Signin from './Components/Pages/Signin/Signin';
 import SignUp from './Components/Pages/SignUp/SignUp';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
@@ -25,9 +25,9 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/service/:serviceId" component={ServiceDetails}>
-              <ServiceDetails></ServiceDetails>
-            </Route>
+            <PrivateRoute path="/order-received/:serviceId">
+              <OrderReceived></OrderReceived>
+            </PrivateRoute>
             <Route path="/signin">
               <Signin></Signin>
             </Route>

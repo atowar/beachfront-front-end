@@ -9,7 +9,7 @@ const Footer = () => {
             <div className=" grid md:grid-cols-4 lg:grid-cols-4 gap-4 text-left p-2 md:w-2/3 lg:w-2/3 text-black py-5 text-md">
                 <div>
                     <img className="w-3/5" src={logo} alt="" />
-                    <p>+880178921457</p>
+                    <p className="mt-2">Hello: +880178921457</p>
                     <p>Cox's Bazar, Bangladesh</p>
                 </div>
                 <div>
