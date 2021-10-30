@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
-            <div className="footer grid justify-items-center my-5">
+            <div className="border-t-2 border-gray-300 footer grid justify-items-center my-5">
             <div className=" grid md:grid-cols-4 lg:grid-cols-4 gap-4 text-left p-2 md:w-2/3 lg:w-2/3 text-black py-5 text-md">
                 <div>
                     <img className="w-3/5" src={logo} alt="" />

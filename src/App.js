@@ -1,7 +1,9 @@
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import AllBooking from './Components/Pages/AllBooking/AllBooking';
 import Home from './Components/Pages/Home/Home';
+import MyBooking from './Components/Pages/MyBooking/MyBooking';
 import NotFound from './Components/Pages/NotFound/NotFound';
 import OrderReceived from './Components/Pages/OrderReceived/OrderReceived';
 import Signin from './Components/Pages/Signin/Signin';
@@ -33,6 +35,12 @@ function App() {
             </Route>
             <Route path="/signup">
               <SignUp></SignUp>
+            </Route>
+            <Route path="/all-booking">
+              <AllBooking></AllBooking>
+            </Route>
+            <Route path="/my-booking">
+              <MyBooking></MyBooking>
             </Route>
           
             <Route path="*">
