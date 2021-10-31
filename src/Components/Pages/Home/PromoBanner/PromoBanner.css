@@ -7,11 +7,7 @@
     align-content: space-around
   }
   
-  .btn-reserve{
-      padding: 10px;
-      background-color: #C74458;
-      border-radius: 10px;
-  }
+  
   /* Make it responsive */
 @media only screen and (max-width:688px) {
     .promo-banner{

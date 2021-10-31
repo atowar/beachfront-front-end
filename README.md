@@ -1,15 +1,27 @@
 # BeachFront
 
-Visit My Website [Medi Center BD](https://medi-center-bd.netlify.app/).
+Visit My Website [BeachFront](https://beachfront-4c10e.web.app/).
 
 
-### Project History ###   
+### What you will get? ###   
+ 
+* You can book any of our service
+
+* After you logged in you will be able to see your all orders
+
+* You will be able to cancel order
+
+* Logged in user can manage order and delete or change order status.
+
+
+
+### Project Details ###   
  
 * Built with react js
 
 * Used tailwind css
 
-* We used fontawesome
+* Used fontawesome
 
 * Built with react routing system
 
@@ -17,7 +29,8 @@ Visit My Website [Medi Center BD](https://medi-center-bd.netlify.app/).
 
 * Used context api
 
-* used google sign in
+* Used google sign in
+
 
 
     

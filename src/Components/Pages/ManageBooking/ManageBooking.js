@@ -65,7 +65,7 @@ const ManageBooking = () => {
                     <div className="grid gap-4">
                         {
                             bookedServices.map(service =>
-                                <div className="service mr-2">
+                                <div key = {service._id} className="service mr-2">
 
                                     <table class="table-auto md:w-full">
 
