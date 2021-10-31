@@ -16,7 +16,7 @@ import FooterBottom from './Components/Shared/FooterBottom/FooterBottom';
 import Header from './Components/Shared/Header/Header';
 import AuthProvider from './Context/AuthProvider';
 import ManageBooking from './Components/Pages/ManageBooking/ManageBooking';
-import AllBooking from './Components/Pages/All Booking/AllBooking';
+
 
 function App() {
   return (
@@ -46,9 +46,7 @@ function App() {
             <Route path="/my-booking">
               <MyBooking></MyBooking>
             </Route>
-            <Route path="/all-booking">
-              <AllBooking></AllBooking>
-            </Route>
+         
             <Route path="/about-us">
               <AboutUs></AboutUs>
             </Route>
