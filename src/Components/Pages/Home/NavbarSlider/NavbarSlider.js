@@ -32,7 +32,7 @@ const NavbarSlider = () => {
                     shouldAutoplay: true,
                     shouldDisplayButtons: false,
                     autoplayDuration: 8000,
-                    height: "100vh"
+                    height: "70vh"
                 }}
             >
               

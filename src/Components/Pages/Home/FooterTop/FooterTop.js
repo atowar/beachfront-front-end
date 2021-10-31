@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './FooterTop.css'
 
 const FooterTop = () => {
@@ -11,7 +12,7 @@ const FooterTop = () => {
                     <h2 className="md:text-3xl font-bold text-white">We would be more than happy to answer your questions.</h2>
                 </div>
                 <div>
-                    <button className="border-2 text-white text-xl border-white py-2 px-5 bg-none">Get in touch</button>
+                    <Link to="/contact-us"><button className="border-2 text-white text-xl border-white py-2 px-5 bg-none">Get in touch</button></Link>
                 </div>
             </div>
         </div>

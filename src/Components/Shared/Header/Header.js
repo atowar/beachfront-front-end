@@ -75,7 +75,7 @@ const Header = ({ fixed }) => {
                             <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
 
                                 {
-                                    user.email ? <button className="py-2 px-5" onClick={logOut}>Sign-Out</button>
+                                    user.email ? <button className="py-2 px-5 text-white" onClick={logOut}>Sign-Out</button>
                                         :
                                         <Link to="/signin">Sign-In</Link>}
 
