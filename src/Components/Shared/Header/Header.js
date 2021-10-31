@@ -66,6 +66,14 @@ const Header = ({ fixed }) => {
                                 <Link to="/all-booking">All Booking</Link>
 
                             </li>
+                            <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
+
+                                {
+                                    user.email ? <Link to="/add-new-service">Add New Service</Link>
+                                        :
+                                        <span></span>}
+
+                            </li>
 
                             <li className="nav-item px-3 py-2 flex items-center text-lg uppercase leading-snug">
 

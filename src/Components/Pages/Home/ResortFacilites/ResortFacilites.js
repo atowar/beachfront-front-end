@@ -9,11 +9,11 @@ const ResortFacilites = () => {
     
           <div className="grid justify-items-center">
                <div className=" md:w-8/12 grid justify-items-center">
-            <h1 className="md:text-8xl text-5xl my-5"><span className="underline">Resort</span> Facilities</h1>
+            <h1 className="md:text-6xl text-5xl my-5"><span className="underline font-bold">Resort</span> Facilities</h1>
             <div className="my-6 grid grid-cols-1 justify-items-left">
                 <div className="md:flex mb-2 p-2">
                       <div className="text-left md:w-1/2">
-                        <h2 className="text-3xl">Rooms<span className="font-bold underline"> Suits</span> </h2>
+                        <h2 className="text-3xl">Rooms<span className="font-bold underline">/Suits</span> </h2>
                         <p className="mt-5">The rooms and suites at BeachFront Resort remarkably fulfills style, comfort and surrounding.</p>
                         <button className="btn-learn-more mt-5">LEARN MORE</button>
                     </div>

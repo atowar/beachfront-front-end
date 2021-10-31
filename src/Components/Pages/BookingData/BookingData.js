@@ -3,22 +3,44 @@ import React from 'react';
 
 const BookingData = ({ service }) => {
     console.log(service);
+
+    //delete bookings
+
+    const handleDeleteBooking = id => {
+        const proceed = window.confirm('Are you sure you want to delete?');
+        if (proceed) {
+            const url = `https://mysterious-shelf-06800.herokuapp.com/services/${id}`
+            fetch(url,
+                {
+                    method: "DELETE"
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.deletedCount) {
+                        alert('Deleted Successfully')
+                        const remainingBooking = service.filter(serviceDeleted => serviceDeleted._id !== id)
+                        service = remainingBooking;
+                    }
+                })
+        }
+    }
     return (
+
+
         <div className="service mr-2">
 
-            <div className="grid items-center ">
-                <div className="py-5">
-                    <h2 className="underline text-4xl font-bold p-2">{service.booking.package}</h2>
-                    <p className="border-b-2 text-md font-medium p-2">{service.booking.features}</p>
-                    <p className="border-b-2 text-md font-medium p-2">{service.booking.capacity}</p>
-                    <p className="border-b-2 text-md font-medium p-2">{service.booking.frontview}</p>
-                    <p className="border-b-2 text-md font-medium p-2">{service.booking.bath}</p>
-                    <p className="border-b-2 text-md font-medium p-2 font-bold">${service.booking.price} per night*</p>
-                    <p className=" text-xl border-b-2 text-md font-medium p-2">Booked by: <span className="italic text-gray-400">{service.name} </span></p>
-                   
 
-                </div>
-            </div>
+            <table class="table-auto md:w-full">
+
+                <thead>
+                    <tr className="border-b-2 text-md">
+                        <th className="w-1/3 text-left p-">Package Name: {service.booking.package}</th>
+                        <th className="w-1/3 text-left">Price: ${service.booking.price} per night*</th>
+                        <th className="w-1/3 text-left">Booked By: <span className="italic text-gray-400">{service.name}</span></th>
+                        <th className="w-1/3 text-left"><button onClick={() => handleDeleteBooking(service._id)} className="bg-white font-bold border">X</button></th>
+                    </tr>
+                </thead>
+            </table>
         </div>
     );
 };

@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AboutUs from './Components/Pages/AboutUs/AboutUs';
-import AllBooking from './Components/Pages/AllBooking/AllBooking';
+import AddNewService from './Components/Pages/AddNewService/AddNewService';
 import ContactUs from './Components/Pages/ContactUs/ContactUs';
 import Home from './Components/Pages/Home/Home';
 import MyBooking from './Components/Pages/MyBooking/MyBooking';
@@ -15,6 +15,7 @@ import Footer from './Components/Shared/Footer/Footer';
 import FooterBottom from './Components/Shared/FooterBottom/FooterBottom';
 import Header from './Components/Shared/Header/Header';
 import AuthProvider from './Context/AuthProvider';
+import ManageBooking from './Components/Pages/ManageBooking/ManageBooking';
 
 function App() {
   return (
@@ -38,9 +39,9 @@ function App() {
             <Route path="/signup">
               <SignUp></SignUp>
             </Route>
-            <Route path="/all-booking">
-              <AllBooking></AllBooking>
-            </Route>
+            <PrivateRoute path="/manage-booking">
+              <ManageBooking></ManageBooking>
+            </PrivateRoute>
             <Route path="/my-booking">
               <MyBooking></MyBooking>
             </Route>
@@ -50,6 +51,9 @@ function App() {
             <Route path="/contact-us">
               <ContactUs></ContactUs>
             </Route>
+            <PrivateRoute path="/add-new-service">
+              <AddNewService></AddNewService>
+            </PrivateRoute>
           
             <Route path="*">
               <NotFound></NotFound>

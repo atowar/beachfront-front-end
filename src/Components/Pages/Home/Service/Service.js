@@ -10,8 +10,10 @@ const Service = ({ service }) => {
 
             <div className="grid items-center ">
                 <div className="py-5">
+                    <div><img src={service.svcimg} alt="" /></div>
                     <h2 className="underline text-4xl font-bold p-2">{service.package}</h2>
                     <p className="border-b-2 text-md font-medium p-2">{service.features}</p>
+                    <p className="border-b-2 text-md font-medium p-2">{service.roomsize}</p>
                     <p className="border-b-2 text-md font-medium p-2">{service.capacity}</p>
                     <p className="border-b-2 text-md font-medium p-2">{service.frontview}</p>
                     <p className="border-b-2 text-md font-medium p-2">{service.bath}</p>

@@ -12,7 +12,8 @@ const FooterTop = () => {
                     <h2 className="md:text-3xl font-bold text-white">We would be more than happy to answer your questions.</h2>
                 </div>
                 <div>
-                    <Link to="/contact-us"><button className="border-2 text-white text-xl border-white py-2 px-5 bg-none">Get in touch</button></Link>
+                <Link className="border-2 text-white text-xl border-white py-2 px-5 bg-none" to="/contact-us">Contact us</Link>
+                   
                 </div>
             </div>
         </div>
