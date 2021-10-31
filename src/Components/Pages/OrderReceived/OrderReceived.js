@@ -21,8 +21,10 @@ const OrderReceived = () => {
 
 
     const onSubmit = data => {
+        
         data.booking = service;
-        console.log(data.booking)
+        data.status = "Pending";
+        console.log(data)
 
         fetch('https://mysterious-shelf-06800.herokuapp.com/booking', {
             method: 'POST',
@@ -34,17 +36,13 @@ const OrderReceived = () => {
         .then (res => res.json())
         .then (result => {
             if(result.insertedId){
-                alert('Booking Received')
+                alert('Thanks for booking')
                 reset();
             };
         })
     };
 
-
-    
-
-    console.log(service);
-    return (
+   return (
         <div className="grid justify-items-center">
             <div className="md:w-8/12">
                 <div className="grid md:grid-cols-2 gap-4">
