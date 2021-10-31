@@ -6,10 +6,10 @@ import Title from "./Title";
 import Subtitle from "./Subtitle";
 
 // Images
-const kyoto = "https://i.ibb.co/bd6k3yf/slide1.jpg";
+const kyoto = "https://i.ibb.co/LNfMhS8/slide2.jpg";
 const tenryuJiTemple = "https://i.imgur.com/g5JNdYL.jpg";
 const hakone = "https://i.imgur.com/Iq6XtFR.jpg";
-const byodoInTemple = "https://i.ibb.co/LNfMhS8/slide2.jpg";
+const byodoInTemple = "https://i.ibb.co/bd6k3yf/slide1.jpg";
 
 const NavbarSlider = () => {
     return (
@@ -32,7 +32,7 @@ const NavbarSlider = () => {
                     shouldAutoplay: true,
                     shouldDisplayButtons: false,
                     autoplayDuration: 8000,
-                    height: "70vh"
+                    height: "80vh"
                 }}
             >
               

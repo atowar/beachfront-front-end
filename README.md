@@ -13,6 +13,8 @@ Visit My Website [BeachFront](https://beachfront-4c10e.web.app/).
 
 * Logged in user can manage order and delete or change order status.
 
+* Admin can add new services and automatically them will  be displayed in front end
+
 
 
 ### Project Details ###   
